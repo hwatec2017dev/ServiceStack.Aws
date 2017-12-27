@@ -2,5 +2,5 @@ SET MSBUILD="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBu
 
 %MSBUILD% build.proj /target:Default;NuGetPack /property:Configuration=Release;MinorVersion=1;PatchVersion=0
 
-%msbuild% /p:Configuration=Release ..\src\ServiceStack.Aws.sln
+REM %msbuild% /p:Configuration=Release ..\src\ServiceStack.Aws.sln
 
